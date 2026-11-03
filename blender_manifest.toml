@@ -1,0 +1,30 @@
+schema_version = "1.0.0"
+
+id = "studio"
+version = "1.0.0"
+name = "Studio"
+tagline = "Studio production tools: render matrix and more"
+maintainer = "taomou"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Render"]
+
+[permissions]
+files = "Write rendered images to the output directory"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/.git/",
+  "/.vscode/",
+  "/dev/",
+  "*.zip",
+  "/docs/",
+  ".DS_Store",
+  ".gitignore",
+  "README.md",
+  "release.sh",
+]

@@ -1,0 +1,28 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "studio",
+      "name": "Studio",
+      "tagline": "Studio production tools: render matrix and more",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "taomou",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "permissions": {
+        "files": "Write rendered images to the output directory"
+      },
+      "tags": [
+        "Render"
+      ],
+      "archive_url": "./studio-1.0.0.zip",
+      "archive_size": 26252,
+      "archive_hash": "sha256:758199b20bc05b6910dbedd845fef15b130fe1536390fdd7c9c243271354f2da"
+    }
+  ]
+}
