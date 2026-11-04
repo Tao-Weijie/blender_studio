@@ -6,7 +6,7 @@ Studio production tools for Blender 4.2+ (Render Matrix: batch-render a camera x
 
 1. Blender: **Edit > Preferences > System > Network**, enable **Allow Online Access**.
 2. **Preferences > Get Extensions > Repositories (top right) > + > Add Remote Repository**
-   - URL: `https://<github-username>.github.io/blender_studio/index.json`
+   - URL: `https://tao-weijie.github.io/blender_studio/index.json`
    - Enable **Check for Updates on Startup**
 3. Search for **Studio** in Get Extensions and click **Install**.
 
